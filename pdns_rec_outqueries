@@ -13,6 +13,9 @@
 #
 #    rec_control:    Path to rec_control executable
 #                    (default: /usr/bin/rec_control)
+#
+#%# family=auto
+#%# capabilities=autoconf
 
 REC_CONTROL="${rec_control:-/usr/bin/rec_control}"
 
